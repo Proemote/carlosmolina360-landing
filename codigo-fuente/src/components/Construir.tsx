@@ -47,7 +47,7 @@ export default function Construir() {
   return (
     <section className="text-blanco relative w-full bg-grafito">
       {/* Pinned Scrollytelling Intro */}
-      <div id="construir" ref={containerRef} className="h-screen w-full flex items-center justify-center relative overflow-hidden">
+      <div ref={containerRef} className="h-screen w-full flex items-center justify-center relative overflow-hidden">
         <div ref={bgRef} className="absolute inset-0 bg-blanco"></div>
         <div ref={introTextRef} className="absolute w-full max-w-5xl px-6 text-center z-10 flex justify-center">
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-serif italic text-blanco leading-tight">
@@ -56,7 +56,7 @@ export default function Construir() {
           </h2>
         </div>
         
-        <div ref={introText2Ref} className="absolute w-full max-w-4xl px-6 text-center opacity-0 z-10">
+        <div id="construir" ref={introText2Ref} className="absolute w-full max-w-4xl px-6 text-center opacity-0 z-10">
           <h2 className="text-[12vw] md:text-[8vw] font-bold tracking-tighter text-blanco uppercase leading-none">
             III<br/>
             <span className="text-salvia">CONSTRUIR</span>
