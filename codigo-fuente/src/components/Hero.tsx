@@ -106,14 +106,14 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.2 }}
-            className="hidden md:flex justify-between w-full"
+            className="grid grid-cols-2 sm:grid-cols-3 md:flex md:flex-row md:justify-between gap-y-4 gap-x-6 w-full"
           >
             {[
               { num: "01", label: "Psicología" },
-              { num: "02", label: "Estrategia" },
+              { num: "02", label: "Marketing" },
               { num: "03", label: "Comunicación" },
               { num: "04", label: "Liderazgo" },
-              { num: "05", label: "Ejecución" }
+              { num: "05", label: "Estrategia" }
             ].map((step) => (
               <div key={step.num} className="flex flex-col gap-1.5">
                 <div className="flex items-center gap-2">
