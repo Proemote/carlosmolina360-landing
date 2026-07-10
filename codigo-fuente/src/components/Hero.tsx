@@ -106,7 +106,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 1.2 }}
-            className="grid grid-cols-2 sm:grid-cols-3 md:flex md:flex-row md:justify-between gap-y-4 gap-x-6 w-full"
+            className="flex flex-wrap justify-center md:flex-row md:justify-between gap-y-6 gap-x-5 md:gap-x-6 w-full"
           >
             {[
               { num: "01", label: "Psicología" },
@@ -115,7 +115,7 @@ export default function Hero() {
               { num: "04", label: "Liderazgo" },
               { num: "05", label: "Estrategia" }
             ].map((step) => (
-              <div key={step.num} className="flex flex-col gap-1.5">
+              <div key={step.num} className="flex flex-col items-center text-center md:items-start md:text-left w-[28%] md:w-auto">
                 <div className="flex items-center gap-2">
                   <div className="w-[8px] h-[12px] bg-arena skew-x-[-25deg] transform -translate-y-[1px]"></div>
                   <span className="text-blanco font-mono text-sm tracking-wider font-semibold">{step.num}</span>
