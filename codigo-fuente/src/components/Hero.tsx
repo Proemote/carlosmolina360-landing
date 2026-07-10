@@ -8,9 +8,9 @@ export default function Hero() {
       <nav className="absolute top-0 left-0 right-0 z-50 flex items-center justify-between px-6 md:px-12 py-8">
         <div className="text-2xl font-serif italic tracking-tight">Carlos Molina</div>
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-white/70">
-          <a href="#entender" className="hover:text-salvia transition-colors duration-200">Entender</a>
-          <a href="#confiar" className="hover:text-salvia transition-colors duration-200">Confiar</a>
-          <a href="#construir" className="hover:text-salvia transition-colors duration-200">Construir</a>
+          <a href="#entender-anchor" className="hover:text-salvia transition-colors duration-200">Entender</a>
+          <a href="#confiar-anchor" className="hover:text-salvia transition-colors duration-200">Confiar</a>
+          <a href="#construir-anchor" className="hover:text-salvia transition-colors duration-200">Construir</a>
         </div>
         <button className="flex items-center gap-2 bg-blanco text-grafito px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-opacity-90 transition-colors">
           Hablemos <ArrowUpRight className="w-4 h-4 bg-arena text-blanco rounded-full p-0.5" />

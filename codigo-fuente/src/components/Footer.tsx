@@ -18,9 +18,9 @@ export default function Footer() {
             <div className="space-y-4">
               <h4 className="text-sm font-semibold tracking-wider text-gray-500 uppercase">Navegación</h4>
               <ul className="space-y-3 font-medium text-gray-300">
-                <li><a href="#entender" className="hover:text-salvia transition-colors duration-200">Entender</a></li>
-                <li><a href="#confiar" className="hover:text-salvia transition-colors duration-200">Confiar</a></li>
-                <li><a href="#construir" className="hover:text-salvia transition-colors duration-200">Construir</a></li>
+                <li><a href="#entender-anchor" className="hover:text-salvia transition-colors duration-200">Entender</a></li>
+                <li><a href="#confiar-anchor" className="hover:text-salvia transition-colors duration-200">Confiar</a></li>
+                <li><a href="#construir-anchor" className="hover:text-salvia transition-colors duration-200">Construir</a></li>
               </ul>
             </div>
             <div className="space-y-4">

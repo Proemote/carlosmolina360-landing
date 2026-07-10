@@ -102,7 +102,7 @@ export default function Decidir() {
           </h2>
         </div>
         
-        <div id="confiar" ref={introText2Ref} className="absolute w-full max-w-4xl px-6 text-center opacity-0 z-10">
+        <div ref={introText2Ref} className="absolute w-full max-w-4xl px-6 text-center opacity-0 z-10">
           <h2 className="text-[12vw] md:text-[8vw] font-bold tracking-tighter text-grafito uppercase leading-none">
             II<br/>
             <span className="text-salvia">CONFIAR</span>

@@ -20,8 +20,14 @@ export default function App() {
       <div id="top" className="bg-grafito min-h-screen font-sans">
         <Hero />
         <Contexto />
+        {/* Sentinel anchor: scrolls to the start of Entender before GSAP pin */}
+        <div id="entender-anchor" style={{ position: 'relative', top: 0 }} />
         <Entender />
+        {/* Sentinel anchor: scrolls to just before Decidir pin starts */}
+        <div id="confiar-anchor" style={{ position: 'relative', top: 0 }} />
         <Decidir />
+        {/* Sentinel anchor: scrolls to just before Construir pin starts */}
+        <div id="construir-anchor" style={{ position: 'relative', top: 0 }} />
         <Construir />
         <Proyectos />
         <Cierre />
@@ -31,3 +37,4 @@ export default function App() {
     </SmoothScroll>
   );
 }
+
