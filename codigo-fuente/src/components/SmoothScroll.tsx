@@ -18,6 +18,7 @@ export default function SmoothScroll({ children }: { children: ReactNode }) {
       touchMultiplier: 2,
     });
     lenisRef.current = lenis;
+    (window as any).lenis = lenis;
 
     lenis.on('scroll', ScrollTrigger.update);
 
@@ -42,6 +43,7 @@ export default function SmoothScroll({ children }: { children: ReactNode }) {
 
     return () => {
       anchors.forEach(anchor => anchor.removeEventListener('click', handleAnchorClick as EventListener));
+      delete (window as any).lenis;
       lenis.destroy();
       gsap.ticker.remove((time) => {
         lenis.raf(time * 1000);
