@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Carlos Molina - Landing Page",
+  "description": "Una landing page de marca personal con un estilo editorial, elegante y minimalista",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
